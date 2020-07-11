@@ -9,11 +9,11 @@ inputs = [[0, 0], [1, 0], [1, 1], [0, 1]]
 targets = [[0], [1], [0], [1]]
 
 # Training neural network to learn to solve XOR problem
-for j in range(10000):
-    i = randint(0, 3)
-    nn.train(inputs[i], targets[i])
+for _ in range(10000):
+    index = randint(0, 3)
+    nn.train(inputs[index], targets[index])
 
 # Printing predictions of neural network after training
 for i in range(4):
-    o = nn.predict(inputs[i])
-    print("XOR", inputs[i], " ≈ ", o[0])
+    output = nn.predict(inputs[i])[0]
+    print("XOR", inputs[i], " ≈ ", output)
