@@ -3,7 +3,7 @@ XOR problem solved using the [three-layer neural network](https://github.com/ary
 and visualized using the Pygame library.
 
 ## *What is main.py?*
-In main.py I trained the neural network to solve XOR problem and when you run the program it shows you the result :
+In main.py I trained the neural network to solve XOR problem and when you run the program it shows you the result:
 
      XOR [0, 0]  ≈  0.09681844789560402
      XOR [1, 0]  ≈  0.8642830639305592
