@@ -1,4 +1,4 @@
-# XOR-Problem
+# XOR Problem
 XOR problem solved using the [three-layer neural network](https://github.com/aryahassibi/Three-layer-Neural-Network-Using-Matrix#three-layer-neural-network--using-matrix-) that I had made previously
 and visualized using the Pygame library.
 
