@@ -18,15 +18,15 @@ Visualize.py shows the learning process of the neural network visually. <br>
 the neural network predicts a color for each cell based on its coordinate.
 ![XORGIF](https://user-images.githubusercontent.com/31355913/87221857-8d2f2d00-c384-11ea-9f45-1be7fbeb804c.gif)
 
-> *note:* white pixels represent **true** and black cells represent **correct**
+> *note:* white cells represent **true** and black cells represent **correct**
 <br>
 
 > Pygame coordinate system:<br>
 
   |   |Left|Right|
   |:---:|:---:|:---:|
-  |**Up**|(0, 0)|(1, 0)|
-  |**Down**|(0, 1)|(1, 1)|
+  |**Top**|(0, 0)|(1, 0)|
+  |**Bottom**|(0, 1)|(1, 1)|
 
 
 
